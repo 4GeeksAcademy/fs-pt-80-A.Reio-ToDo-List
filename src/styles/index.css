@@ -1,12 +1,83 @@
+.to-do{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
 
-/* 
+h1{
+    font-size: 4rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    transition: background-color 0.5 ease;
+}
 
-*/
+.add-button{
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button{
+    background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+.add-button{
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+
+.moveUp-button{
+    background-color: hsl(207, 90%, 64%);
+}
+
+.moveUp-button:hover{
+    background-color: hsl(207, 90%, 54%);
+}
+
+.moveDown-button{
+    background-color: hsl(69, 90%, 64%);
+}
+
+.moveDown-button:hover{
+    background-color: hsl(69, 90%, 54%);
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ol{
+    padding: 0;   
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
